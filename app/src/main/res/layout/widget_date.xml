@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:padding="4dp">
+
+    <!-- 只顯示「日」的數字,字體自動放到最大 -->
+    <TextClock
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoSizeMaxTextSize="90sp"
+        android:autoSizeMinTextSize="24sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="uniform"
+        android:format12Hour="d"
+        android:format24Hour="d"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</FrameLayout>
